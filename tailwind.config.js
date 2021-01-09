@@ -15,7 +15,7 @@ module.exports = {
       "rob":['Roboto', 'sans-serif']
     },
     backgroundImage:{
-      'site': "url('/img/site.png')"
+      'site': "url('img/site.png')"
     },
     extend: {},
   },
