@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>TailwindCSS UI</title>
+</head>
+<body class="font-rob bg-darkblue md:bg-site">
+
+    <!-- Header -->
+    <header class="bg-darkblue text-white p-14 md:w-4/5">
+        <div class="flex justify-between items-center">
+            <div>
+                <img src="/img/logo.svg" alt="">
+            </div>
+            <div>
+                <a href="login.html">Login <i class="fas fa-arrow-right"></i></a>
+            </div>
+        </div>
+    </header>
+
+<!-- Container for flex -->
+    <div class="md:flex h-4/5">
+<!-- Hero Section -->
+
+<section class=" px-8  z-10 md:w-4/5 md:px-14 bg-darkblue md:w-4/5 md:pb-14 ">
+
+    <div class=" md:pr-20 md:pb-10">
+
+    <p class="uppercase text-ash font-bold mb-2" > Now updated for tailwind css v2.0</p>
+    <h1 class=" text-3xl md:text-5xl md:my-4 font-bold text-white tracking-wide">Beautiful UI components, crafted <span class="text-litblue leading-8">by the creators of Tailwind CSS</span></h1>
+
+    <p class="text-ash text-lg leading-8 mb-4 md:text-2xl">Fully responsive HTML components, designed and developed by Adam Wathan and Steve Schoger.</p>
+
+    <div class="md:flex md:items-center md:mt-10 ">
+    <a href="#" class=" block px-10 py-2 rounded bg-white text-darkblue w-full text-lg mb-4 md:mb-0 font-medium hover:text-ash text-center md:px-0 md:py-4 md:w-1/4 md:mr-4"> Explore the preview</a>
+
+    <a href="#" class=" block px-10 py-2 rounded bg-ash text-darkblue w-full text-lg font-medium hover:bg-darkash text-center md:px-0 md:py-4 md:w-1/4" > Get early access <i class="fas fa-arrow-right"></i></a>
+</div>
+
+    </div>
+</section>
+
+<!-- Image Display-->
+
+<img class="mt-4 w-full md:hidden " src="/img/site.png" alt="">
+
+    </div>
+
+<!-- Designer section-->
+<section class="p-8 bg-darkblue md:w-4/5 md:pb-14">
+    <p class="text-ash text-lg leading-8 mb-4  font-medium uppercase"> Developed By</p>
+
+    <div class="flex ">
+        <img  class= "w-24 h-24 rounded-full border-2 border-white mr-2 "src="/img/Franklin.jpg" alt="">
+        <div>
+            <p class="text-white text-lg leading-8 font-medium">Franklin Okolie</p>
+            <p class="text-ash text-lg leading-8 ">Learning Tailwind CSS</p>
+        </div>
+    </div>
+</section>
+
+
+
+    <script src="https://kit.fontawesome.com/5c2eecb01d.js" crossorigin="anonymous"></script>
+</body>
+</html>
